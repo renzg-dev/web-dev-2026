@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* Grouping method */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* Child method */
+.box > p {
+  color: firebrick;
+}
+
+/* Descendant method */
+.box li {
+  color: blue;
+}
+
+/* Chaining method*/
+li.done {
+  color: green;
+}
+
+/* Multiple Combiners method */
+ul p.done {
+  font-size: 0.5rem;
+}
